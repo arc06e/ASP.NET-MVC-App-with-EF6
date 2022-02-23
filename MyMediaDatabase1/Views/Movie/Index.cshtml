@@ -1,0 +1,99 @@
+﻿@model MyMediaDatabase1.ViewModels.IndexViewForContributorAndMovie
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Movies</h2>
+
+<p>
+    @Html.ActionLink("Add Movie", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Title
+        </th>
+        <th>
+            Genre
+        </th>
+        <th>
+            Length
+        </th>
+        <th>
+            Year Released
+        </th>
+
+        <th></th>
+    </tr>
+
+
+    @foreach (var item in Model.Movies)
+    {
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Length)
+                min
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YearReleased)
+            </td>
+
+
+            <td>
+                @Html.ActionLink("Select", "Index", new { id = item.ID }) |
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+</table>
+
+
+@if (Model.Roles != null)
+{
+    <h3>Cast and Crew of Selected Movie</h3>
+    <p>
+        @Html.ActionLink("Add Role", "Create", new { id = ViewBag.MovieID  })
+    </p>
+
+    <table class="table">
+        <tr>
+            <th>Role</th>
+            <th>Name</th>
+
+        </tr>
+
+        @foreach (var item in Model.Roles)
+        {
+            <tr>
+                <td>
+                    @item.Contribution
+                </td>
+                <td>
+                    @item.Contributor.FullName
+                    @Html.ActionLink("Delete", "DeleteRole", new { Controller = "Contributor", action = "DeleteRole", id = item.ID })<br />
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+
+
+
+
+
+
+
+
+
