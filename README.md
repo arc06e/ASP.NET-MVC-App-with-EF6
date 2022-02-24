@@ -4,7 +4,7 @@
    -demo: https://adams-media-database-app.azurewebsites.net
  
   ## Description
-  Welcome to my personal media database! I have built this ASP.NET MVC app with Entity Framework 6. I started this project so I could gain a deeper understanding of MVC design patterns 
+  Welcome to my personal media database! I built this ASP.NET MVC app with Entity Framework 6. I started this project so I could gain a deeper understanding of MVC design patterns 
   and learn how to interact with databases through Entity Framework. As a frequent patron and deep admirer of public libraries, I thought it would be great to design this project so
   that I could chart all of my current and past library acquisitions and many ways they relate to one another. 
   
