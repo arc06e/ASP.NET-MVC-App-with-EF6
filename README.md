@@ -1,6 +1,6 @@
 # ASP.NET-MVC-App-with-EF6
 
-  ##Adam's Media Database
+  ## Adam's Media Database
    -demo:https://adams-media-database-app.azurewebsites.net
  
   ## Description
