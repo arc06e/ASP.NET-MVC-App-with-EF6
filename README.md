@@ -16,9 +16,9 @@
      * author and contributor models inherit from abstract person base class model
   * Multiple Entity Relationships:
      * one-to-many relationship between author and books
-        ** uses foreign key and navigation properties
+        - uses foreign key and navigation properties
      * many-to-many relationship between contributors(cast and crew) and movies 
-        ** uses navigation properties and a join table with payload(roles)
+        - uses navigation properties and a join table with payload(roles)
   * Utilizes both Models and ViewModels to allow users to:
      * display data from multiple tables in one page
      * update multiple db tables in one submission
