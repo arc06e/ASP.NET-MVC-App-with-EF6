@@ -11,8 +11,8 @@
   * CRUD functionality:
      * allows users to add, read, edit, and remove authors, books, movies, and contributors(cast and crew)
   * Type-Per-Concrete-Class(TPC) Entity Inheritance patterns:
-     * books and movies inherit from abstract medium base class
-     * authors and contributors inherit from abstract person base class
+     * book and movie models inherit from abstract medium base class
+     * author and contributor models inherit from abstract person base class
   * Multiple Entity Relationships:
      * one-to-many relationship between author and books
         ** uses foreign key and navigation properties
