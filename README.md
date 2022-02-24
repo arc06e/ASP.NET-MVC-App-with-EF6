@@ -11,7 +11,7 @@
   * Seed Method which populates new database with a sample set of data to demonstrate app's key features
   * CRUD functionality:
      * allows users to add, read, edit, and remove authors, books, movies, and contributors(cast and crew) from database
-  * Type-Per-Concrete-Class(TPC) Entity Inheritance patterns:
+  * Type-Per-Concrete-Class(TPC) Entity Inheritance pattern:
      * book and movie models inherit from abstract medium base class model
      * author and contributor models inherit from abstract person base class model
   * Multiple Entity Relationships:
