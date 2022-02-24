@@ -25,4 +25,5 @@
      * update multiple db tables in one submission
 
 ## Intended Improvements
-Time permitting, I would love to add a new join table to store which movies are adapted from existing books and books which are in turn novelizations of existing movies. Beyond that, it would be great to incorporate TV shows and Radio programs with their own respective join tables which would indicate which were adapted from existing intellectual properties--we haven't even got to comic books yet! 
+Time permitting, I would love to add a new join table to store which movies are adapted from existing books and books which are in turn novelizations of existing movies. Beyond that, it would be great to incorporate TV shows and Radio programs with their own respective join tables which would indicate which were adapted from existing intellectual properties. Oh,
+we haven't even got to comic books yet! 
