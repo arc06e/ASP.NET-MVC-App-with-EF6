@@ -5,7 +5,8 @@
  
   ## Description
   Welcome to my personal media database! I have built this ASP.NET MVC app with Entity Framework 6. I started this project so I could gain a deeper understanding of MVC design patterns 
-  and learn how to interact with databases through Entity Framework. 
+  and learn how to interact with databases through Entity Framework. As a frequent patron and deep admirer of public libraries, I thought it would be great to design this project so
+  that I could chart all of my current and past library acquisitions and many ways they relate to one another. 
   
   ## Current Features
   * Seed Method which populates new database with a sample set of data to demonstrate app's key features
