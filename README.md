@@ -8,10 +8,19 @@
   and learn how to interact with databases through Entity Framework. 
   
   ## Current Features
-  * Implements CRUD functionality
-  * Utilizes both Models and ViewModels to allow users to both:
+  * CRUD functionality:
+     -allows users to add, read, edit, and remove authors, books, movies, and contributors(cast and crew)
+  * Type-Per-Concrete-Class(TPC) Entity Inheritance patterns:
+     -books and movies inherit from abstract medium base class
+     -authors and contributors inherit from abstract person base class
+  * Multiple Entity Relationships:
+     -one-to-many relationship between author and books
+        --using foreign key and navigation properties
+     -many-to-many relationship between contributors(cast and crew) and movies 
+        --uses navigation properties and a join table with payload(roles)
+  * Utilizes both Models and ViewModels to allow users to:
      -display data from multiple tables in one page
      -update multiple db tables in one submission
 
 ## Intended Improvements
-Time permitting, I would love to add a new join table to record which movies are adapted from existing books and books which are in turn novelizations of existing movies. Beyond that, I would really enjoy incorporating TV shows and Radio programs with their own respective join tables which would indicate which were adapted from existing intellectual properties--we haven't even got to comic books yet! 
+Time permitting, I would love to add a new join table to store which movies are adapted from existing books and books which are in turn novelizations of existing movies. Beyond that, I would really enjoy incorporating TV shows and Radio programs with their own respective join tables which would indicate which were adapted from existing intellectual properties--we haven't even got to comic books yet! 
