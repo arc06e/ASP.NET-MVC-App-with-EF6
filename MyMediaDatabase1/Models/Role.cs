@@ -9,7 +9,9 @@ namespace MyMediaDatabase1.Models
     {
         //p
         public int ID { get; set; }
+        //fk
         public int ContributorID { get; set; }
+        //fk
         public int MovieID { get; set; }
         public string Contribution { get; set; }
 
