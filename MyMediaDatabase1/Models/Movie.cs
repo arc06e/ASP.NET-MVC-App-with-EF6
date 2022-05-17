@@ -11,7 +11,7 @@ namespace MyMediaDatabase1.Models
     {
         //p -no unique properties
 
-        //np one-to-many
+        //np one-to-many - no fk
         public virtual ICollection<Role> Roles { get; set; }
 
 
