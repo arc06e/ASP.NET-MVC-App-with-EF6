@@ -2,7 +2,9 @@
 
 
   ## Adam's Media Database (AMDb)
+  <!--
    -demo: https://adams-media-database-app.azurewebsites.net
+-->
  
   ## Description
   Welcome to my personal media database! I built this ASP.NET MVC app with Entity Framework 6. I started this project to gain a deeper understanding of MVC design patterns 
