@@ -29,7 +29,7 @@
 ## Set-Up Guide
 1. Clone project in local directory:<br/>
 ``` gh repo clone arc06e/Media-DataBase-ASP.NET-MVC-App-with-EF6 ```
-2. If you encounter the following server error 'Could not find a part of the path ... bin\roslyn\csc.exe', run this command in your Package Manager Console:<br/>
+2. If you encounter the following server error: 'Could not find a part of the path ... bin\roslyn\csc.exe', run this command in your Package Manager Console:<br/>
 ``` Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r ```
 
 ## Intended Improvements
