@@ -26,11 +26,11 @@
      * display data from multiple tables in one page.
      * update multiple db tables in one submission.
 
-## Intended Improvements
-Time permitting, I would love to add a new join table to store which movies are adapted from existing books and books which are in turn novelizations of existing movies. Beyond that, it would be great to incorporate TV shows and Radio programs with their own respective join tables which would indicate which were adapted from existing intellectual properties. Oh, we haven't even got to comic books yet! 
-
 ## Set-Up Guide
 1. Clone project in local directory:<br/>
 ``` gh repo clone arc06e/Media-DataBase-ASP.NET-MVC-App-with-EF6 ```
 2. If you encounter the following server error 'Could not find a part of the path ... bin\roslyn\csc.exe', run this command in your Package Manager Console:<br/>
 ``` Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r ```
+
+## Intended Improvements
+Time permitting, I would love to add a new join table to store which movies are adapted from existing books and books which are in turn novelizations of existing movies. Beyond that, it would be great to incorporate TV shows and Radio programs with their own respective join tables which would indicate which were adapted from existing intellectual properties. Oh, we haven't even got to comic books yet! 
