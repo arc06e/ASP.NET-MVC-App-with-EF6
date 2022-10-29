@@ -210,7 +210,7 @@ namespace MyMediaDatabase1.DAL
                 {
                     ContributorID = contributors.Single(s => s.LastName == "Marshman Jr.").ID,
                     MovieID = movies.Single(c => c.Title == "Sunset Boulevard" ).ID,
-                    Contribution = "Director"
+                    Contribution = "Writer"
                 },
                 new Role
                 {
