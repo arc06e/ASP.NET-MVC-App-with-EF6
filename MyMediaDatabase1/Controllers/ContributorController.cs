@@ -95,8 +95,8 @@ namespace MyMediaDatabase1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(MovieRolesData viewModel)
         {
-            //contributor is ultimately added to db by being contained in role's contributor NP
-            //this makes impossible to add contributor to db without associating it with a role
+            //contributor can be added to db by being contained in role's contributor NP
+            
             Role role = new Role();
             try
             {
